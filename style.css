@@ -1,9 +1,19 @@
 body {
     background-color: gray;
+    margin: 0px;
+    padding: 0px;
 }
 
-.main {
+div {
+    /* border: 1px solid black; */
+    display: flex;
+    flex: auto;
+}
+
+.container {
     background-color: orange;
-    width: 500px;
+    flex-direction: column;
+
     height: 500px;
+    width: 500px;
 }
